@@ -36,7 +36,7 @@ we will stop after Xr+1 - Xr < epsilon.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install sympy and Texttable.
 
 ```bash
-pip install sympy
+pip install numpy
 ```
 
 ```bash
