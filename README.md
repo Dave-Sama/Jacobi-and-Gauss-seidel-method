@@ -28,7 +28,7 @@ matX = [[1,2,3],[4,5,6],[7,8,9]]
 # Gauss-seidel method: <br/>
 ![Gauss-seidel method](https://i.ibb.co/6tMHJWy/image.jpg)
 
-we will stop after Xr+1 - Xr < epsilon.
+we will stop after Xr+1 - Xr < epsilon.</br>
 4. the results (Xr+1,Yr+1,Zr+1...etc) will be printed.
 
 ## Installation
