@@ -17,7 +17,7 @@ The advantage of this method over the elimination method is the advantage of all
 
 1. insert a matrix in a form of a list: </br>
 ``` bash
-matX = [1,2,3],[4,5,6],[7,8,9]
+matX = [[1,2,3],[4,5,6],[7,8,9]]
 ```
 2. the algorithem will check if there is a Dominant diagonal in the inserted matrix, if not, it will try to swap the rows/colums to find the right diagonal.
 3. if the conditions are matched, we will apply the following equations: </br>
