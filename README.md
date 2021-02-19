@@ -13,7 +13,7 @@ The advantage of this method over the elimination method is the advantage of all
 
 # How it works? 
 
-* steps * 
+* algorithem's steps:
 
 1. insert a matrix in a form of a list: </br>
 ``` bash
