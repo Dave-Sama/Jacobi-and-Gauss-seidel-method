@@ -299,28 +299,11 @@ class YaakobiAndZaydel:
 
 
 zaydel = YaakobiAndZaydel()
-# # zaydel.insertFunc([[1, 2, 4, 8, 0], [1, 2.25, 5.0625, 11.390625, 0.112463], [1, 2.3, 5.289999999999999, 12.166999999999998, 0.167996], [1, 2.7, 7.290000000000001, 19.683000000000003, 0.222709]])
+
+# two examples:
 zaydel.insertFunc([[-1, -2, 5, 2], [4, -1, 1, 4], [1, 6, 2, 9]])
 # zaydel.insertFunc([[10,8,1,-7],[4,10,-5,2],[5,1,10,1.5]])
-# #
+
 zaydel.Zaydel()
 print("the answer is: ", zaydel.getAnswer())
 
-
-def neville(list, x):
-    dict={}
-    tempdict ={}
-    n = len(list)
-    iters = 1
-    while len(dict) != 1:
-        for i in range(n - iters):
-            temp = ((x - list[i][0]) * list[i + iters][1] - (x - list[i + iters][0]) * list[i][1]) / (list[i + iters][0] - list[i][0])
-            tempdict['p' + str(i) + ',' + str(i + iters)] = temp
-            #print('p' + str(i) + ',' + str(i + iters))
-        dict = tempdict
-        tempdict = {}
-        print('Iteration Number: ',iters,dict)
-        iters += 1
-
-
-    return dict
