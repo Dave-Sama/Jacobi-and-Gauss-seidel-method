@@ -33,6 +33,11 @@ we will stop after Xr+1 - Xr < epsilon.</br></br>
 
 ## Installation
 
+This algorithem will work on: </br>
+```bash
+Python 3.8 =< x
+```
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install sympy and Texttable.
 
 ```bash
